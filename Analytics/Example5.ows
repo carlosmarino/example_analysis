@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Example 5" version="2.0">
+	<nodes>
+		<node id="0" name="File" position="(150, 150)" project_name="Orange3" qualified_name="Orange.widgets.data.owfile.OWFile" title="File" version="" />
+		<node id="1" name="Select Columns" position="(301.0, 150.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" title="Select Columns" version="" />
+		<node id="2" name="Linear Regression" position="(253.0, 245.0)" project_name="Orange3" qualified_name="Orange.widgets.regression.owlinearregression.OWLinearRegression" title="Linear Regression" version="" />
+		<node id="3" name="Data Table" position="(403.0, 245.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="1" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Coefficients" source_node_id="2" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWAwAAAByZWNlbnRfcGF0aHNxAV1xAihjT3JhbmdlLndpZGdldHMudXRpbHMuZmlsZWRp
+YWxvZ3MKUmVjZW50UGF0aApxAymBcQR9cQUoWAUAAABzaGVldHEGWAAAAABxB1gFAAAAdGl0bGVx
+CGgHWAcAAABhYnNwYXRocQlYHQAAAC9Vc2Vycy9jYXJsb3MvRGVza3RvcC9XSE8uY3N2cQpYBgAA
+AHByZWZpeHELTlgHAAAAcmVscGF0aHEMTnViaAMpgXENfXEOKGgGaAdoCGgHaAlYgwAAAC9BcHBs
+aWNhdGlvbnMvT3JhbmdlMy5hcHAvQ29udGVudHMvRnJhbWV3b3Jrcy9QeXRob24uZnJhbWV3b3Jr
+L1ZlcnNpb25zLzMuNC9saWIvcHl0aG9uMy40L3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRz
+L2hvdXNpbmcudGFicQ9oC1gPAAAAc2FtcGxlLWRhdGFzZXRzcRBoDFgLAAAAaG91c2luZy50YWJx
+EXViaAMpgXESfXETKGgGaAdoCGgHaAlYgAAAAC9BcHBsaWNhdGlvbnMvT3JhbmdlMy5hcHAvQ29u
+dGVudHMvRnJhbWV3b3Jrcy9QeXRob24uZnJhbWV3b3JrL1ZlcnNpb25zLzMuNC9saWIvcHl0aG9u
+My40L3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2lyaXMudGFicRRoC2gQaAxYCAAAAGly
+aXMudGFicRV1YmgDKYFxFn1xFyhoBmgHaAhoB2gJWCEAAAAvVXNlcnMvY2FybG9zL0Rlc2t0b3Av
+TmV0ZmxpeC5jc3ZxGGgLTmgMTnViZVgQAAAAY29udGV4dF9zZXR0aW5nc3EZXXEaWAsAAABfX3Zl
+cnNpb25fX3EbSwFYCwAAAHJlY2VudF91cmxzcRxdcR1YCwAAAHNoZWV0X25hbWVzcR59cR9YBgAA
+AHNvdXJjZXEgSwBYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxIUMuAdnQywABAAAAAAGzAAAAvAAA
+A+wAAAKNAAABswAAANIAAAPsAAACjQAAAAAAAHEiWAMAAAB1cmxxI2gHdS4=
+</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgLAAAAX192ZXJzaW9uX19xAksBWBMAAABzYXZlZFdp
+ZGdldEdlb21ldHJ5cQNDLgHZ0MsAAQAAAAABzAAAAF4AAAO/AAACywAAAcwAAAB0AAADvwAAAssA
+AAAAAABxBFgQAAAAY29udGV4dF9zZXR0aW5nc3EFXXEGY09yYW5nZS53aWRnZXRzLnNldHRpbmdz
+CkNvbnRleHQKcQcpgXEIfXEJKFgEAAAAdGltZXEKR0HWLTlJNUonWAYAAAB2YWx1ZXNxC31xDCho
+AksBWBEAAABkb21haW5fcm9sZV9oaW50c3ENfXEOKFgKAAAAUG9wdWxhdGlvbnEPSwKGcRBYCQAA
+AGF2YWlsYWJsZXERSwCGcRJYAwAAAEdOSXETSwKGcRRYCQAAAGF0dHJpYnV0ZXEVSwCGcRZYGwAA
+AFByaW1hcnlTY2hvb2xFbnJvbGxtZW50TWFsZXEXSwKGcRhoEUsDhnEZWA4AAABDaGlsZE1vcnRh
+bGl0eXEaSwKGcRtoEUsGhnEcWAwAAABMaXRlcmFjeVJhdGVxHUsChnEeaBFLBIZxH1gdAAAAUHJp
+bWFyeVNjaG9vbEVucm9sbG1lbnRGZW1hbGVxIEsChnEhaBFLAoZxIlgHAAAAVW5kZXIxNXEjSwKG
+cSRoEUsBhnElWAcAAABDb3VudHJ5cSZLA4ZxJ1gEAAAAbWV0YXEoSwCGcSlYBgAAAFJlZ2lvbnEq
+SwGGcStoEUsJhnEsWBMAAABDZWxsdWxhclN1YnNjcmliZXJzcS1LAoZxLmgRSwWGcS9YDgAAAExp
+ZmVFeHBlY3RhbmN5cTBLAoZxMWgRSwiGcTJYBgAAAE92ZXI2MHEzSwKGcTRoEUsHhnE1WA0AAABG
+ZXJ0aWxpdHlSYXRlcTZLAoZxN1gFAAAAY2xhc3NxOEsAhnE5dUr+////hnE6dVgFAAAAbWV0YXNx
+O31xPFgOAAAAb3JkZXJlZF9kb21haW5xPV1xPihoKksBhnE/aCNLAoZxQGgzSwKGcUFoNksChnFC
+aDBLAoZxQ2gaSwKGcURoLUsChnFFaB1LAoZxRmgTSwKGcUdoF0sChnFIaCBLAoZxSWgPSwKGcUpl
+WAoAAABhdHRyaWJ1dGVzcUt9cUwoaDNLAmgPSwJoF0sCaDBLAmgdSwJoNksCaCNLAmgqSwFoE0sC
+aBpLAmgtSwJoIEsCdXViYXUu
+</properties>
+		<properties format="literal" node_id="2">{'autosend': True, 'learner_name': 'Linear Regression', '__version__': 1, 'alpha_index': 15, 'ridge': False, 'l2_ratio': 0.5, 'auto_apply': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x01\x00\x00\x00\x00\x02\x05\x00\x00\x00\xcb\x00\x00\x03\x87\x00\x00\x02=\x00\x00\x02\x05\x00\x00\x00\xe1\x00\x00\x03\x87\x00\x00\x02=\x00\x00\x00\x00\x00\x00', 'reg_type': 2}</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAHNob3df
+ZGlzdHJpYnV0aW9uc3EDiVgVAAAAc2hvd19hdHRyaWJ1dGVfbGFiZWxzcQSIWAsAAABzZWxlY3Rf
+cm93c3EFiFgOAAAAZGlzdF9jb2xvcl9SR0JxBihL3EvcS9xL/3RxB1gLAAAAX192ZXJzaW9uX19x
+CEsBWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDLgHZ0MsAAQAAAAABNQAAAI4AAARUAAAClwAA
+ATUAAACkAAAEVAAAApcAAAAAAABxClgQAAAAY29udGV4dF9zZXR0aW5nc3ELXXEMY09yYW5nZS53
+aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcQ0pgXEOfXEPKFgEAAAAdGltZXEQR0HWLTlQb+fJWAYA
+AAB2YWx1ZXNxEX1xEihYDQAAAHNlbGVjdGVkX2NvbHNxE11xFFgNAAAAc2VsZWN0ZWRfcm93c3EV
+XXEWaAhLAXVYBQAAAG1ldGFzcRd9cRhYDgAAAG9yZGVyZWRfZG9tYWlucRldcRpYBAAAAGNvZWZx
+G0sChnEcYVgKAAAAYXR0cmlidXRlc3EdfXEeaBtLAnN1YmF1Lg==
+</properties>
+	</node_properties>
+</scheme>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="Example 3" version="2.0">
+	<nodes>
+		<node id="0" name="Paint Data" position="(-224.0, -210.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" title="Paint Data" version="" />
+		<node id="1" name="Univariate Polynomial Regression" position="(-115.0, -204.0)" project_name="Orange3" qualified_name="Orange.widgets.regression.owunivariateregression.OWUnivariateRegression" title="Univariate Polynomial Regression" version="" />
+		<node id="2" name="Data Table" position="(34.0, -204.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Coefficients" source_node_id="1" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="pickle" node_id="0">gAN9cQAoWAoAAAB0YWJsZV9uYW1lcQFYDAAAAFBhaW50ZWQgZGF0YXECWAUAAABhdHRyMXEDWAEA
+AAB4cQRYCwAAAF9fdmVyc2lvbl9fcQVLAVgEAAAAZGF0YXEGY251bXB5LmNvcmUubXVsdGlhcnJh
+eQpfcmVjb25zdHJ1Y3QKcQdjbnVtcHkKbmRhcnJheQpxCEsAhXEJQwFicQqHcQtScQwoSwFLCksD
+hnENY251bXB5CmR0eXBlCnEOWAIAAABmOHEPSwBLAYdxEFJxEShLA1gBAAAAPHESTk5OSv////9K
+/////0sAdHETYolD8MG1b6GBAOc/wSpvlGiO4D8AAAAAAAAAACf+xChj7OQ/E2gN1Mrc4z8AAAAA
+AAAAAIxBXH7rrsI/JAhuiP6izj8AAAAAAAAAAA/qF9tGItQ/BL6jQBjtzz8AAAAAAAAAAGJUjbxn
+dcc/W1ZJBzn04D8AAAAAAAAAAId4NlmpGdk/FsB3+mAq5j8AAAAAAAAAAKYV6Ir3CeE/uEZDlqjO
+1z8AAAAAAAAAABOLM3q85uI/XL7V/A1s6D8AAAAAAAAAAAYDApmTDeY/pLeU/9Sd0z8AAAAAAAAA
+AGJUjbxndcc/mCkk7mgtvD8AAAAAAAAAAHEUdHEVYlgFAAAAYXR0cjJxFlgBAAAAeXEXWAcAAABk
+ZW5zaXR5cRhLB1gKAAAAYXV0b2NvbW1pdHEZiFgIAAAAaGFzQXR0cjJxGohYEwAAAHNhdmVkV2lk
+Z2V0R2VvbWV0cnlxG0MuAdnQywABAAAAAAGeAAAATQAABV0AAAL3AAABngAAAGMAAAVdAAAC9wAA
+AAAAAHEcWAsAAABicnVzaFJhZGl1c3EdS0t1Lg==
+</properties>
+		<properties format="literal" node_id="1">{'__version__': 1, 'learner_name': 'Univariate Regression', 'auto_apply': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x01\x00\x00\x00\x00\x01Y\x00\x00\x00\x95\x00\x00\x05\x15\x00\x00\x02\x96\x00\x00\x01Y\x00\x00\x00\xab\x00\x00\x05\x15\x00\x00\x02\x96\x00\x00\x00\x00\x00\x00', 'polynomialexpansion': 7.0}</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAY29sb3JfYnlfY2xhc3NxAohYEgAAAHNob3df
+ZGlzdHJpYnV0aW9uc3EDiVgVAAAAc2hvd19hdHRyaWJ1dGVfbGFiZWxzcQSIWAsAAABzZWxlY3Rf
+cm93c3EFiFgOAAAAZGlzdF9jb2xvcl9SR0JxBihL3EvcS9xL/3RxB1gLAAAAX192ZXJzaW9uX19x
+CEsBWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQlDLgHZ0MsAAQAAAAABNQAAAI4AAARUAAAClwAA
+ATUAAACkAAAEVAAAApcAAAAAAABxClgQAAAAY29udGV4dF9zZXR0aW5nc3ELXXEMY09yYW5nZS53
+aWRnZXRzLnNldHRpbmdzCkNvbnRleHQKcQ0pgXEOfXEPKFgEAAAAdGltZXEQR0HWLTdThCGbWAYA
+AAB2YWx1ZXNxEX1xEihYDQAAAHNlbGVjdGVkX2NvbHNxE11xFFgNAAAAc2VsZWN0ZWRfcm93c3EV
+XXEWaAhLAXVYBQAAAG1ldGFzcRd9cRhYDgAAAG9yZGVyZWRfZG9tYWlucRldcRpYBAAAAGNvZWZx
+G0sChnEcYVgKAAAAYXR0cmlidXRlc3EdfXEeaBtLAnN1YmF1Lg==
+</properties>
+	</node_properties>
+</scheme>
